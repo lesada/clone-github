@@ -20,12 +20,14 @@ export const Main = styled.div`
 `;
 
 export const LeftSide = styled.div`
+  padding: 0 var(--horizontalPadding);
   @media (min-width: 768px) {
     width: 25%;
   }
 `;
 
 export const RightSide = styled.div`
+  padding: 0 var(--horizontalPadding);
   @media (min-width: 768px) {
     width: 75%;
   }
@@ -57,7 +59,7 @@ export const Repos = styled.div`
     font-weight: normal;
   }
 
-  >div {
+  > div {
     margin-top: 8px;
     display: grid;
     grid-gap: 16px;
