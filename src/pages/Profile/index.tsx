@@ -12,12 +12,12 @@ const Profile: React.FC = () => {
           username="@lesada"
           name="Leslie"
           avatarUrl="https://avatars.githubusercontent.com/u/68572174?v=4"
+          bio={"Front-end Developer Jr."}
           followers={33}
           following={17}
           company={undefined}
           location={"Brasil"}
-          email={undefined}
-          blog={undefined}
+          blog={"https://www.linkedin.com/in/lauren-leslie-ferreira/"}
           />
         </LeftSide>
         <RightSide></RightSide>

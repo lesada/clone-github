@@ -9,7 +9,6 @@ import {
   Column,
   CompanyIcon,
   LocationIcon,
-  EmailIcon,
   BlogIcon,
 } from "./styles";
 
@@ -17,11 +16,11 @@ interface ProfileDataProps {
   username: string;
   name: string;
   avatarUrl: string;
+  bio?: string;
   followers: number;
   following: number;
   company?: string;
   location?: string;
-  email?: string;
   blog?: string;
 }
 
@@ -29,11 +28,11 @@ const ProfileData: React.FC<ProfileDataProps> = ({
   username,
   name,
   avatarUrl,
+  bio,
   followers,
   following,
   company,
   location,
-  email,
   blog,
 }) => {
   return (
@@ -43,6 +42,7 @@ const ProfileData: React.FC<ProfileDataProps> = ({
         <div>
           <h1>{name}</h1>
           <h2>{username}</h2>
+          {bio && <span>{bio}</span>}
         </div>
       </Flex>
 
@@ -68,12 +68,6 @@ const ProfileData: React.FC<ProfileDataProps> = ({
           <li>
             <LocationIcon />
             <span>{location}</span>
-          </li>
-        )}
-        {email && (
-          <li>
-            <EmailIcon />
-            <span>{email}</span>
           </li>
         )}
         {blog && (

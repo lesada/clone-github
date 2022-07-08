@@ -26,6 +26,7 @@ export const Flex = styled.div`
       font-size: 20px;
       color: var(--username);
       font-weight: 300;
+      margin-bottom: 16px;
     }
   }
   @media (min-width: 768px) {
@@ -98,10 +99,6 @@ export const CompanyIcon = styled(RiBuilding4Line)`
 `;
 
 export const LocationIcon = styled(RiMapPin2Line)`
-  ${iconCSS}
-`;
-
-export const EmailIcon = styled(RiMailLine)`
   ${iconCSS}
 `;
 
