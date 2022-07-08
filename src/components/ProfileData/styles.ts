@@ -1,21 +1,25 @@
-import styled, { css } from 'styled-components';
+import styled, { css } from "styled-components";
 import {
   RiGroupLine,
   RiBuilding4Line,
   RiMapPin2Line,
   RiMailLine,
   RiLinksLine,
-} from 'react-icons/ri';
+} from "react-icons/ri";
 
-export const Container = styled.div`
-
-`;
+export const Container = styled.div``;
 
 export const Flex = styled.div`
   display: flex;
   align-items: center;
   > div {
     margin-left: 24px;
+
+    > span {
+      font-size: 16px;
+      font-weight: 500;
+    }
+
     > h1 {
       font-size: 26px;
       line-height: 1.25;
