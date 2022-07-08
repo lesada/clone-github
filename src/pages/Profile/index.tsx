@@ -7,14 +7,31 @@ import {
   RightSide,
   Repos,
   CalendarHeading,
+  RepoIcon,
+  Tab,
 } from "./styles";
 import ProfileData from "./../../components/ProfileData";
 import RepoCard from "./../../components/RepoCard";
 import RandomCalendar from "../../components/RandomCalendar";
 
 const Profile: React.FC = () => {
+  const TabContent = () => (
+    <div className="content">
+      <RepoIcon />
+      <span className="label">Repository </span>
+      <span className="number">7</span>
+    </div>
+  );
+
   return (
     <Container>
+      <Tab className="desktop">
+        <div className="wrapper">
+          <span className="offset" />
+          <TabContent />
+        </div>
+        <span className="line"></span>
+      </Tab>
       <Main>
         <LeftSide>
           <ProfileData
@@ -30,6 +47,10 @@ const Profile: React.FC = () => {
           />
         </LeftSide>
         <RightSide>
+          <Tab className="mobile">
+            <TabContent />
+            <span className="line"></span>
+          </Tab>
           <Repos>
             <h2>Pinned repos</h2>
             <div>
