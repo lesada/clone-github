@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 
 import GlobalStyles from "./styles/GlobalStyles";
 import Header from "./components/Header";
+import Footer from "./components/Footer";
 import Profile from "./pages/Profile";
 import Repo from "./pages/Repo";
 
@@ -15,8 +16,8 @@ function App() {
         <Route path="/" element={<Profile />} />
         <Route path="/:username" element={<Profile />} />
         <Route path="/:username/:reponame" element={<Repo />} />
-        {/* <Footer/> */}
       </Routes>
+      <Footer />
       <GlobalStyles />
     </BrowserRouter>
   );
