@@ -22,6 +22,8 @@ export const themes = {
     "calendar-scale-2": "#3FC463",
     "calendar-scale-3": "#30A14E",
     "calendar-scale-4": "#216E3A",
+
+    "other-language": "#8257e5",
   },
   dark: {
     primary: "#1D1D1D",
@@ -46,6 +48,8 @@ export const themes = {
     "calendar-scale-2": "rgba(79, 140, 201, 0.5)",
     "calendar-scale-3": "rgba(79, 140, 201, 0.75)",
     "calendar-scale-4": "rgba(79, 140, 201, 1)",
+
+    "other-language": "#8257e5",
   },
 };
 
