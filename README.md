@@ -10,6 +10,8 @@
 
 ## 💻 Preview Site Link
 
+####Use the navbar to search for a gituser
+
 <button>
 <a href="https://lesada.github.io/clone-github/">
 <img src="https://user-images.githubusercontent.com/68572174/195865629-c4573fa2-7593-4211-bed8-d3b0070340b1.png"  width="100">
