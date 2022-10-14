@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/clone-github/static/css/main.9625e110.css",
-    "main.js": "/clone-github/static/js/main.c2a29149.js",
-    "index.html": "/clone-github/index.html",
-    "main.9625e110.css.map": "/clone-github/static/css/main.9625e110.css.map",
-    "main.c2a29149.js.map": "/clone-github/static/js/main.c2a29149.js.map"
+    "main.css": "/clone-github/lesadda/static/css/main.9625e110.css",
+    "main.js": "/clone-github/lesadda/static/js/main.5e8a6635.js",
+    "index.html": "/clone-github/lesadda/index.html",
+    "main.9625e110.css.map": "/clone-github/lesadda/static/css/main.9625e110.css.map",
+    "main.5e8a6635.js.map": "/clone-github/lesadda/static/js/main.5e8a6635.js.map"
   },
   "entrypoints": [
     "static/css/main.9625e110.css",
-    "static/js/main.c2a29149.js"
+    "static/js/main.5e8a6635.js"
   ]
 }
